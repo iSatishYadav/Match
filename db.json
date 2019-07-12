@@ -92,7 +92,7 @@
     {
         "name": "Henry",
         "money": 100,
-        "team": "X"
+        "team": "N"
     },
     {
         "name": "Nivetita",
@@ -107,7 +107,7 @@
     {
         "name": "Ankur",
         "money": 100,
-        "team": "X"
+        "team": "N" 
     }, 
     {
         "name": "Chetan",
