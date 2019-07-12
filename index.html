@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 
 <head>
-    <title>Match</title>
-    <script src="index.js"></script>
+    <title>Match</title>    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
@@ -56,7 +55,7 @@
                 console.log("E", e.length);
                 // console.log("E", e / 100);
 
-                let eMoney = total / e.length;
+                let eMoney = (total / e.length).toFixed(2);
                 console.log("EM", eMoney);
                 document.getElementById("eWin").innerText = "₹" + eMoney;
 
@@ -66,7 +65,7 @@
                 console.log("N", n.length);
                 // console.log("N", n / 100);
 
-                let nMoney = total / n.length;
+                let nMoney = (total / n.length).toFixed(2);
                 console.log("NM", nMoney);
                 document.getElementById("nWin").innerText = "₹" + nMoney;
             });        
