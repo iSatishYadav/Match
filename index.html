@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Match</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>    
+    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+        <h1 class="display-4">ICC Cricket World-cup 2019 Final</h1>
+        <p class="lead">Here are the current stats.</p>
+    </div>
+
+    <div class="container">
+        <div class="card-deck mb-3 text-center">
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">England</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title" id="eWin">₹0</h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                    </ul>
+                    <button type="button" class="btn btn-block btn-primary" href="tel:+918104419715">Support England</button>
+                </div>
+            </div>
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">New Zealand</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title" id="nWin">₹0</h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                    </ul>
+                    <button type="button" class="btn btn-block btn-primary" href="tel:+918104419715">Support New Zealand</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var data;
+        // fetch('https://raw.githubusercontent.com/iSatishYadav/Match/master/db.json')
+        fetch('db.json')
+            .then(x => x.json())
+            .then(x => {
+                data = x;
+                console.log("Data", data)
+                var total = data.map(x => x.money).reduce((acc, cur) => acc + cur);
+                console.log("Total", total);
+
+                var e = data.filter(acc => acc.team == 'E');
+                console.log("E", e)
+                // e = e.map(x => x.money).reduce((acc, cur) => acc + cur);
+                console.log("E", e.length);
+                // console.log("E", e / 100);
+
+                let eMoney = total / e.length;
+                console.log("EM", eMoney);
+                document.getElementById("eWin").innerText = "₹" + eMoney;
+
+                var n = data.filter((acc) => acc.team == 'N');
+                console.log("N", n)
+                // n = n.map(x => x.money).reduce((acc, cur) => acc + cur);
+                console.log("N", n.length);
+                // console.log("N", n / 100);
+
+                let nMoney = total / n.length;
+                console.log("NM", nMoney);
+                document.getElementById("nWin").innerText = "₹" + nMoney;
+            });        
+    </script>
+</body>
