@@ -5,17 +5,7 @@
         "team": "E"
     },
     {
-        "name": "Jasmeet",
-        "money": 100,
-        "team": "N"
-    },
-    {
         "name": "Rupjit",
-        "money": 100,
-        "team": "E"
-    },
-    {
-        "name": "Ajinkya",
         "money": 100,
         "team": "E"
     },
@@ -25,8 +15,88 @@
         "team": "N"
     },
     {
+        "name": "Jasmeet",
+        "money": 100,
+        "team": "N"
+    },
+    {
+        "name": "Priti",
+        "money": 100,
+        "team": "E"
+    },
+    {
+        "name": "Ajinkya",
+        "money": 100,
+        "team": "N"
+    },
+    {
         "name": "Saka",
         "money": 100,
         "team": "E"
+    },
+    {
+        "name": "Vikas",
+        "money": 100,
+        "team": "N"
+    },
+    {
+        "name": "Tarun",
+        "money": 100,
+        "team": "N"
+    },
+    {
+        "name": "Deepak",
+        "money": 100,
+        "team": "E"
+    },
+    {
+        "name": "Varun",
+        "money": 100,
+        "team": "N"
+    },
+    {
+        "name": "Kingshuk ",
+        "money": 100,
+        "team": "E"
+    },
+    {
+        "name": "Bidhan ",
+        "money": 100,
+        "team": "N"
+    },
+    {
+        "name": "Ajoy ",
+        "money": 100,
+        "team": "E"
+    },
+    {
+        "name": "Saurabh Sharma ",
+        "money": 100,
+        "team": "N"
+    },
+    {
+        "name": "Saurav Saha",
+        "money": 100,
+        "team": "N"
+    },
+    {
+        "name": "Ethan ",
+        "money": 100,
+        "team": "E"
+    },
+    {
+        "name": "Pavan ",
+        "money": 100,
+        "team": "E"
+    },
+    {
+        "name": "Henry",
+        "money": 100,
+        "team": "N"
+    },
+    {
+        "name": "Nivetita",
+        "money": 100,
+        "team": "N
     }
 ]
