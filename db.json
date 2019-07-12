@@ -103,5 +103,10 @@
         "name": "Akshya",
         "money": 100,
         "team": "N"
+    },
+    {
+        "name": "Ankur",
+        "money": 100,
+        "team": "N"
     }
 ]
