@@ -98,5 +98,10 @@
         "name": "Nivetita",
         "money": 100,
         "team": "E"
+    },
+    {
+        "name": "Akshya",
+        "money": 100,
+        "team": "N"
     }
 ]
