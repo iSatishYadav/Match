@@ -1,1 +1,32 @@
-"[]" 
+[
+    {
+        "name": "Satish",
+        "money": 100,
+        "team": "E"
+    },
+    {
+        "name": "Jasmeet",
+        "money": 100,
+        "team": "N"
+    },
+    {
+        "name": "Rupjit",
+        "money": 100,
+        "team": "E"
+    },
+    {
+        "name": "Ajinkya",
+        "money": 100,
+        "team": "E"
+    },
+    {
+        "name": "Parth",
+        "money": 100,
+        "team": "N"
+    },
+    {
+        "name": "Saka",
+        "money": 100,
+        "team": "E"
+    }
+]
