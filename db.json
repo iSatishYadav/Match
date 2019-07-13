@@ -118,6 +118,10 @@
         "name": "Pratheek",
         "money": 100,
         "team": "N"
+    },
+    {
+        "name": "Priyanka",
+        "money": 100,
+        "team": "E"
     }
-
 ]
